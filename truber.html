@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Truber - Your On-Demand Truck Service</title>
+  <style>
+    /* Add your custom CSS styles here */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    form {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="date"],
+    input[type="time"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+
+    button {
+      background-color: #333;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #555;
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      margin-top: 0;
+    }
+
+    p {
+      margin-bottom: 10px;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .profile-card {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .profile-card img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-right: 20px;
+    }
+
+    .profile-card .info {
+      flex: 1;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Truber</h1>
+    <p>Your On-Demand Truck Service</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Request a Truck</h2>
+      <form>
+        <div>
+          <label for="pickupLocation">Pickup Location:</label>
+          <input type="text" id="pickupLocation" name="pickupLocation" required>
+        </div>
+
+        <div>
+          <label for="dropoffLocation">Dropoff Location:</label>
+          <input type="text" id="dropoffLocation" name="dropoffLocation" required>
+        </div>
+
+        <div>
+          <label for="date">Date:</label>
+          <input type="date" id="date" name="date" required>
+        </div>
+
+        <div>
+          <label for="time">Time:</label>
+          <input type="time" id="time" name="time" required>
+        </div>
+
+        <button type="submit">Request Truck</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>About Truber</h2>
+      <p>Truber is a convenient on-demand truck service that connects truck owners with people who need goods transported. Whether you're moving houses or need to deliver a large item, Truber has you covered. Our reliable truck owners are available to pick up your goods and transport them to your desired location.</p>
+      <img src="truber-truck.jpeg" alt="Truber Truck">
+    </section>
+
+    <section>
+      <h2>Driver Profile</h2>
+      <div class="profile-card">
+        <img src="driver-avatar.jpg" alt="Driver Avatar">
+        <div class="info">
+          <h3>Onur Olmez</h3>
+          <p>Experience: 5 years</p>
+          <p>License: ABC123</p>
+          <p>Rating: 4.8/5</p>
+        </div>
+      </div>
+      <p>Meet Onur, an experienced and skilled truck driver who excels in safely and efficiently carrying goods across countries. With his unwavering dedication and expertise behind the wheel, Onur has built a reputation as a reliable transporter of goods across vast distances.</p>
+      <p>Behind his rugged exterior and calloused hands lies a wealth of knowledge about navigating the intricacies of international logistics. Onur understands the importance of adhering to regulations, customs procedures, and documentation requirements when crossing borders.</p>
+      <p>Equipped with an extensive understanding of different routes and road conditions, Onur meticulously plans his journeys to optimize delivery times while ensuring the utmost safety of the cargo. From bustling metropolitan cities to remote rural areas, he fearlessly ventures into diverse terrains, maneuvering his truck with precision and skill.</p>
+      <p>Onur's commitment to his craft goes beyond simply driving. He takes pride in maintaining his truck in top-notch condition, conducting regular inspections, and ensuring that all safety protocols are strictly followed. His dedication to vehicle maintenance guarantees that the goods entrusted to him will reach their destination intact and on schedule.</p>
+      <p>His exceptional problem-solving skills and quick thinking allow him to navigate unexpected challenges on the road, such as adverse weather conditions, traffic congestion, or mechanical issues. Onur remains calm under pressure, employing his vast experience to find solutions and keep the goods moving smoothly towards their destination.</p>
+      <p>Aside from his technical expertise, Onur's interpersonal skills make him a pleasure to work with. He communicates effectively with clients, shippers, and receivers, providing regular updates on the progress of the delivery and addressing any concerns promptly. His friendly demeanor and professional attitude have earned him a strong network of satisfied customers and industry connections.</p>
+      <p>When it comes to transporting goods across countries, Onur is the epitome of reliability, professionalism, and capability. With him behind the wheel, you can trust that your cargo is in safe hands, destined to reach its intended location seamlessly.</p>
+    </section>
+
+    <section>
+      <h2>Contact Us</h2>
+      <p>Have a question or feedback? We'd love to hear from you. Reach out to us at:</p>
+      <p>Email: info@truber.com</p>
+      <p>Phone: 123-456-7890</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Truber. All rights reserved.</p>
+  </footer>
+</body>
+</html>
